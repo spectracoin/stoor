@@ -10,7 +10,7 @@ export default function LeftBlock() {
 				<div className="content-left-wrapper">
 					<Link to={process.env.PUBLIC_URL + "/"} id="logo">
             <img src={logo} alt="" width="49" height="35" />
-            <h1 className="title title-light">More Just Store</h1>
+            <h1 className="title title-light">Stoor</h1>
           </Link>
 					<div id="social">
 						<ul>
@@ -29,7 +29,7 @@ export default function LeftBlock() {
 						<a href="https://github.com/morejust/store/blob/master/README.md" target="blank" className="btn_1 rounded">Start Now!</a>
             <Link to={process.env.PUBLIC_URL + "docs"} style={{marginLeft: "10px"}} className="btn_1 rounded">Documentation</Link>
 					</div>
-					<div className="copy">© 2018 More Just Store v1.2.3</div>
+					<div className="copy">© 2019 Stoor v1.0.1</div>
 				</div>
 			</div>
   );
